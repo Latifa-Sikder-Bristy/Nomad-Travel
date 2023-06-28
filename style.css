@@ -1,1 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.banner-bg-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.navbarsection {
+    background-color: #fff; /* Set your desired background color here */
+    height: 60px; /* Adjust the height of your navbarsection */
+    /* Add any other styles for your navbarsection */
+}
+
+.banner {
+    background-image: url('./Assets/banner-bg.png'); /* Set the background image for your bannersection */
+    background-size: cover;
+    height: 400px; /* Adjust the height of your bannersection */
+    /* Add any other styles for your bannersection */
+}

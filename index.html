@@ -11,40 +11,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
-                <div>
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="/Assets/Logo.png" alt="logo" class="logo">
-                    </a>    
+    <section class="banner-with-navbar">
+        <!-- Background shape image -->
+        <img src="./Assets/banner-bg.png" alt="banner-bg-shape" class="banner-bg-shape">
+        <!-- nav section -->
+        <section class="navbarsection">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                        <div>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="/Assets/Logo.png" alt="logo" class="logo">
+                            </a>    
+                        </div>
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Hostels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Flights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Bookings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Destinations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Hostels</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Flights</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bookings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Login</a>
-                        </li>
-                    </ul>
-                </div>
+            </nav>
+        </section>
+        <!-- starting custom code not bootstrap -->
+        <!-- Banner section -->
+        <section class="banner">
+            <div class="banner-left">
+            <h1>Travel,<span class="enjoy"> enjoy </span><br>and live a new <br>full life</h1>
+            <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+            <button class="find-out-more">Find out more</button><button class="play"><img src="" alt=""></button><em></em>
+            <p>Play Demo</p>
             </div>
-        </div>
-    </nav>    
-
+            <div class="banner-right">
+                <img src="./Assets/plane.png" alt="" class="plane1">
+                <img src="" alt="" class="traveler-with-backpack"><img src="" alt="" class="plane2">
+            </div>
+        </section>
+    </section>
     <!----link Bootstrap JS bundle----->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
