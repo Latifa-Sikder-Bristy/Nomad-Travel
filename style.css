@@ -17,5 +17,57 @@
 }  
 
 .logo{
-    float: left;
+    margin-right: auto;
+}
+.nav-item{
+    justify-content: space-between;
+    row-gap: 5px;
+}
+
+.banner-left>h1{
+    font-family: 'Volkhov', serif;
+    font-size: 84px;
+}
+.enjoy{
+    display:inline-block;
+    background: url('./Assets/Banner/Decore.png'); 
+}
+.find-out-more{
+    color: white;
+    font-family: Google Sans;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    background-color: #F1A501;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+}
+.title>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col {
+    text-align: center;
+}
+.service-category
+{
+    align-items: flex-end;
+}
+.row {
+    align-items: center;
+
+}
+.pattern{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+.service{
+    margin-top: 5%;
+}
+.card-text>p{
+    padding: 0 20%;
+    text-align: center;
 }
