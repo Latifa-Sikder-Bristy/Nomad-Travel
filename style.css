@@ -26,7 +26,8 @@
 
 .banner-left>h1{
     font-family: 'Volkhov', serif;
-    font-size: 84px;
+    font-size: 75px;
+    
 }
 .enjoy{
     display:inline-block;
@@ -70,4 +71,20 @@
 .card-text>p{
     padding: 0 20%;
     text-align: center;
+}
+.background-underline-image{
+    background-image: url("./Assets/Banner\ Section/Decore.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+    background-position-x: 2px;
+    background-size: 280px 12px;
+}
+.banner-left>h1{
+    text-align: justify;
+}
+.banner-left{
+    max-width: 55%;
 }
